@@ -1,6 +1,6 @@
 // TODO: write your code here
 import sum from './basic';
-import defaultData, {GameSavingData, readGameSaving as loadGame, writeGameSaving as saveGame } from "./game";
+import Game, {GameSavingData, readGameSaving as loadGame, writeGameSaving as saveGame } from "./game";
 
 console.log('worked');
 
